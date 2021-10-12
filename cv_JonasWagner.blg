@@ -1,35 +1,29 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'cv_JonasWagner.blg'
-[224] biber-MSWIN32:340> INFO - === 
-[314] Biber.pm:415> INFO - Reading 'cv_JonasWagner.bcf'
-[590] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[618] Biber.pm:4340> INFO - Processing section 0
-[639] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/publications.bib' for section 0
-[746] bibtex.pm:1689> INFO - LaTeX decoding ...
-[759] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/publications.bib'
-[823] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/posters.bib' for section 0
-[955] bibtex.pm:1689> INFO - LaTeX decoding ...
-[974] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/posters.bib'
-[980] Utils.pm:395> WARN - legacy year field 'July 2019' in entry 'wsts2019' is not an integer - this will probably not sort properly.
-[988] Utils.pm:395> WARN - legacy year field 'May 2019' in entry 'EPpostersSpring2019' is not an integer - this will probably not sort properly.
-[994] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Gopal' is not an integer - this will probably not sort properly.
-[998] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Roopaei' is not an integer - this will probably not sort properly.
-[1000] Utils.pm:411> ERROR - Name "\textbf{J. Wagner}, D. Kelm, C. Shackett, N. Hemenway," has too many commas, skipping entry 'RM2N2020'
-[1004] Utils.pm:395> WARN - legacy year field 'January 2019' in entry 'RM2N2019' is not an integer - this will probably not sort properly.
-[1008] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/presentations.bib' for section 0
-[1110] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1127] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/presentations.bib'
-[1131] Utils.pm:395> WARN - Entry 'dallas2019_GopalReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring
-[1134] Utils.pm:395> WARN - Entry 'summerReaserch2019' (refs/presentations.bib): Invalid format 'October 2019' of date field 'date' - ignoring
-[1136] Utils.pm:395> WARN - Entry 'dallas2019_RoopaeiReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring
-[1137] Utils.pm:395> WARN - Entry 'prototypeHackathon2019' (refs/presentations.bib): Invalid format 'April 2019' of date field 'date' - ignoring
-[1139] Utils.pm:395> WARN - Entry 'DSC_Presentation' (refs/presentations.bib): Invalid format 'April 2021' of date field 'date' - ignoring
-[1140] Utils.pm:395> WARN - Entry 'dallas2019_BorilReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring
-[1171] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1172] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1172] Biber.pm:4168> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[1172] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1190] bbl.pm:654> INFO - Writing 'cv_JonasWagner.bbl' with encoding 'UTF-8'
-[1197] bbl.pm:757> INFO - Output to cv_JonasWagner.bbl
-[1197] Biber.pm:128> INFO - WARNINGS: 11
-[1197] Biber.pm:132> INFO - ERRORS: 1
+[244] biber-MSWIN32:340> INFO - === 
+[312] Biber.pm:415> INFO - Reading 'cv_JonasWagner.bcf'
+[487] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[506] Biber.pm:4340> INFO - Processing section 0
+[523] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/publications.bib' for section 0
+[596] bibtex.pm:1689> INFO - LaTeX decoding ...
+[601] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/publications.bib'
+[642] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/posters.bib' for section 0
+[707] bibtex.pm:1689> INFO - LaTeX decoding ...
+[721] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/posters.bib'
+[726] Utils.pm:395> WARN - legacy year field 'July 2019' in entry 'wsts2019' is not an integer - this will probably not sort properly.
+[732] Utils.pm:395> WARN - legacy year field 'January 2019' in entry 'RM2N2019' is not an integer - this will probably not sort properly.
+[737] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Roopaei' is not an integer - this will probably not sort properly.
+[741] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Gopal' is not an integer - this will probably not sort properly.
+[750] Utils.pm:395> WARN - legacy year field 'May 2019' in entry 'EPpostersSpring2019' is not an integer - this will probably not sort properly.
+[751] Utils.pm:411> ERROR - Name "\textbf{J. Wagner}, D. Kelm, C. Shackett, N. Hemenway," has too many commas, skipping entry 'RM2N2020'
+[753] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/presentations.bib' for section 0
+[824] bibtex.pm:1689> INFO - LaTeX decoding ...
+[834] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/presentations.bib'
+[869] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[870] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[870] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[870] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[887] bbl.pm:654> INFO - Writing 'cv_JonasWagner.bbl' with encoding 'UTF-8'
+[893] bbl.pm:757> INFO - Output to cv_JonasWagner.bbl
+[894] Biber.pm:128> INFO - WARNINGS: 5
+[895] Biber.pm:132> INFO - ERRORS: 1

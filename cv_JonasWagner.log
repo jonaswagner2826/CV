@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.1)  11 OCT 2021 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,38 +626,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv_JonasWagner.bbl' found.
- (./cv_JonasWagner.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'dallas2019_BorilReaserch':
-(biblatex)                - Entry 'dallas2019_BorilReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'dallas2019_GopalReaserch':
-(biblatex)                - Entry 'dallas2019_GopalReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'prototypeHackathon2019':
-(biblatex)                - Entry 'prototypeHackathon2019' (refs/presentations.bib): Invalid format 'April 2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'dallas2019_RoopaeiReaserch':
-(biblatex)                - Entry 'dallas2019_RoopaeiReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'summerReaserch2019':
-(biblatex)                - Entry 'summerReaserch2019' (refs/presentations.bib): Invalid format 'October 2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'DSC_Presentation':
-(biblatex)                - Entry 'DSC_Presentation' (refs/presentations.bib): Invalid format 'April 2021' of date field 'date' - ignoring.
-
-)
+ (./cv_JonasWagner.bbl)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 Package hyperref Info: Link coloring OFF on input line 41.
@@ -677,7 +646,6 @@ LaTeX Info: Redefining \nameref on input line 41.
 \@outlinefile=\write4
 \openout4 = `cv_JonasWagner.out'.
 
-\pagenumberwidth=\skip96
 \makecvtitledetailsbox=\box53
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 47.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -705,8 +673,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box54
-\makecvtitledetailswidth=\skip97
-\makecvtitlepicturewidth=\skip98
+\makecvtitledetailswidth=\skip96
+\makecvtitlepicturewidth=\skip97
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
@@ -724,39 +692,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [2]
-
-Package biblatex Warning: Keyword 'presentation' not found on input line 231.
-
-
-LaTeX Warning: Empty bibliography on input line 231.
-
-
-Package biblatex Warning: Keyword 'poster' not found on input line 237.
-
-
-LaTeX Warning: Empty bibliography on input line 237.
-
-(./undergraduate_reaserch.tex [3]) [4] [5] (./cv_JonasWagner.aux)
+ [2] (./undergraduate_reaserch.tex [3]) (./graduate_research.tex) [4] [5] (./cv_JonasWagner.aux)
 Package rerunfilecheck Info: File `cv_JonasWagner.out' has not changed.
-(rerunfilecheck)             Checksum: 4E56EB4FBE0B38CD57D7D4749C575E6B;1823.
+(rerunfilecheck)             Checksum: CF18FF123E8AF0A0479178473F1F3A2B;2204.
 Package logreq Info: Writing requests to 'cv_JonasWagner.run.xml'.
 \openout1 = `cv_JonasWagner.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19182 strings out of 478599
- 328912 string characters out of 5858102
- 1196917 words of memory out of 5000000
- 36657 multiletter control sequences out of 15000+600000
- 487932 words of font info for 125 fonts, out of 8000000 for 9000
+ 19245 strings out of 478599
+ 330104 string characters out of 5858102
+ 1196181 words of memory out of 5000000
+ 36681 multiletter control sequences out of 15000+600000
+ 484886 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,83p,825b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,14n,83p,825b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_JonasWagner.pdf (5 pages, 319243 bytes).
+Output written on cv_JonasWagner.pdf (5 pages, 324450 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 47209 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 45185 words of extra memory for PDF output out of 51595 (max. 10000000)
 

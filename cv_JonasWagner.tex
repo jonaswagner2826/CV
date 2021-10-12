@@ -15,7 +15,7 @@
 
 \usepackage[none]{hyphenat} % Eliminate words from hyphenating at the end of a line
 
-\usepackage[style=authoryear,sorting=ydnt]{biblatex}
+\usepackage[style=authoryear,sorting=none]{biblatex}
 \addbibresource{refs/publications.bib}
 \addbibresource{refs/posters.bib}
 \addbibresource{refs/presentations.bib}
@@ -176,13 +176,12 @@
 \section{Computer Skills}
 
 \subsection{\textbf{Programming Experience}}
-\cvitem{Basic}{C/C++/C\#, VBA, putty}
-\cvitem{Proficient}{Simulink, Mathematica, Linux, Git, \LaTeX}
-\cvitem{Advanced}{\textsc{Python}, numpy, matplotlib, MATLAB}
+\cvitem{Basic}{C/C++/C\#, Mathematica}
+\cvitem{Proficient}{Linux, Git, \LaTeX}
+\cvitem{Advanced}{\textsc{Python}, numpy, matplotlib, MATLAB, Simulink}
 
 \subsection{\textbf{Engineering Tools}}
-\cvitem{Proficient}{AutoCAD, ANSYS Workbench, Solidworks}
-\cvitem{Advanced}{Autodesk Inventor}
+\cvitem{Proficient}{AutoCAD, ANSYS Workbench, Solidworks, Autodesk Inventor}
 
 \subsection{\textbf{Teaching Tools}}
 \cvitem{Proficient}{Adobe Photoshop and Premier Pro, OBS Studio}
@@ -218,7 +217,7 @@
 %----------------------------------------------------------------------------------------
 
 \nocite{*}
-\printbibliography[type=article, title={Publications}]
+\printbibliography[keyword=pub, title={Publications}]
 
 % \nocitepub{*}
 % \bibliographystylepub{plain}
@@ -228,13 +227,13 @@
 % %	PRESENTATIONS SECTION
 % %----------------------------------------------------------------------------------------
 
-\printbibliography[keyword = presentation, title={Presentations}]
+\printbibliography[keyword=pres, title={Presentations}]
 
 % %----------------------------------------------------------------------------------------
 % %	POSTER PRESENTATIONS SECTION
 % %----------------------------------------------------------------------------------------
 
-\printbibliography[keyword = poster, title={Posters}]
+\printbibliography[keyword=poster, title={Posters}]
 
 % \newpage
 %----------------------------------------------------------------------------------------
@@ -242,6 +241,12 @@
 %----------------------------------------------------------------------------------------
 
 \input{undergraduate_reaserch}
+
+%----------------------------------------------------------------------------------------
+%	GRADUATE RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\input{graduate_research}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
