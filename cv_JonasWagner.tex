@@ -15,9 +15,10 @@
 
 \usepackage[none]{hyphenat} % Eliminate words from hyphenating at the end of a line
 
-
-\usepackage{multibib}
-\newcites{pub,poster,pres}{{Papers},{Posters},{Presentations}}
+\usepackage[style=authoryear,sorting=ydnt]{biblatex}
+\addbibresource{refs/publications.bib}
+\addbibresource{refs/posters.bib}
+\addbibresource{refs/presentations.bib}
 
 
 %----------------------------------------------------------------------------------------
@@ -82,17 +83,15 @@
 \section{Teaching Experience}
 
 \cventry{Fall 2021}
-{Teaching Assistant - ***INSERT COURSE NAME HERE***}
+{Teaching Assistant - Introduction to Mechanical Engineering I}
 {Mechanical Engineering}
 {University of Texas at Dallas}
-{Professors: *****}
+{Professors: Dr. Oziel Rios and Dr. Dani Fadda}
 {\begin{itemize}
-    \item *Update this*
-    % \item Managed discussion forums to answer student questions and provide supplementary instruction
-    % \item Graded weekly deliverable and answered any grading related questions
-    % \item Communicated with students via email and MS Teams to assist in assignment related questions
-\end{itemize}
-}
+    \item TA for 4 sections totalling more then 200 students
+    \item Instructed students in person on weekly labs and assignments
+    \item Graded weekly deliverable and answered any grading related questions
+\end{itemize}}
 
 % \cventry{Spring 2020}
 % {Teaching Assistant - Introduction to Mechanical Engineering II}
@@ -186,9 +185,8 @@
 \cvitem{Advanced}{Autodesk Inventor}
 
 \subsection{\textbf{Teaching Tools}}
-\cvitem{Basic}{Adobe Photoshop and Premier Pro, MS Stream}
-\cvitem{Proficient}{OBS Studio, MS Teams/PowerPoint/OneNote, Youtube Studio}
-\cvitem{Advanced}{eLearning/Blackboard, Slack, MS Outlook/Word/Excel}
+\cvitem{Proficient}{Adobe Photoshop and Premier Pro, OBS Studio}
+\cvitem{Advanced}{eLearning/Blackboard, MS Outlook/Word/Excel/Teams/PowerPoint/OneNote}
 
 %----------------------------------------------------------------------------------------
 %	RELEVANT COURSEWORK SECTION
@@ -203,8 +201,6 @@
 \cvitem{Spring 2019}{Modern Control Systems $\cdot$ Engineering Physics Sensors Lab $\cdot$ Analog Electronics}
 \cvitem{Fall 2018}{Automatic Controls $\cdot$ Logic and Digital Design $\cdot$ Applied Mechanics}
 \cvitem{Spring 2018}{Signals and Systems $\cdot$ Engineering Computation $\cdot$ Applied Optics}
-
-
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
@@ -221,27 +217,26 @@
 %	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
 
-\nocitepub{*}
-\bibliographystylepub{plain}
-\bibliographypub{refs/publications}
+\nocite{*}
+\printbibliography[type=article, title={Publications}]
 
-%----------------------------------------------------------------------------------------
-%	PRESENTATIONS SECTION
-%----------------------------------------------------------------------------------------
+% \nocitepub{*}
+% \bibliographystylepub{plain}
+% \bibliographypub{refs/publications}
 
-\nocitepres{*}
-\bibliographystylepres{plain}
-\bibliographypres{refs/presentations}
+% %----------------------------------------------------------------------------------------
+% %	PRESENTATIONS SECTION
+% %----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	POSTER PRESENTATIONS SECTION
-%----------------------------------------------------------------------------------------
+\printbibliography[keyword = presentation, title={Presentations}]
 
-\nociteposter{*}
-\bibliographystyleposter{plain}
-\bibliographyposter{refs/posters}
+% %----------------------------------------------------------------------------------------
+% %	POSTER PRESENTATIONS SECTION
+% %----------------------------------------------------------------------------------------
 
-\newpage
+\printbibliography[keyword = poster, title={Posters}]
+
+% \newpage
 %----------------------------------------------------------------------------------------
 %	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -260,20 +255,18 @@
 {Oshkosh, WI}{}{
 \begin{itemize}
     \item Helped operators of Blown Film Machines during 12-hour shifts
-    %\item Practiced safe manufacturing techniques
     \item Operated forklift to transport supplies and waste
     \item Filed reports to insure quality and accuracy of film composition
 \end{itemize}
 }
 
 \cventry{May 2017 - Aug 2017}
-{Summer Employee - Flexographic Press Department}
+{Summer Employee - Press Department}
 {Bemis Specialty Films}
 {Oshkosh, WI}{}
 {
 \begin{itemize}
     \item Assisted in mounting for flexographic printing presses
-    %\item Practiced safe manufacturing techniques
     \item Operated Tug to transport flexographic press cylinders
     \item Organized mounting priorities for 12 machines during 12-hour shifts
 \end{itemize}
@@ -317,6 +310,7 @@
 \section{Extracurricular Activities}
 
 \cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
+\cvitem{Since 2021}{\textbf{Choir} - Credo Community Choir}
 \cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
 \cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
 \cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}

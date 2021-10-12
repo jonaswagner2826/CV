@@ -1,0 +1,272 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{dallas2019_BorilReaserch}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{UW-Plattevielle PSSPL and UT-Dallas CRSS Lab Seminar}}
+      \field{title}{{Implementing EM-Algorithm using Python within WSL}}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item Entry 'dallas2019_BorilReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{dallas2019_GopalReaserch}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{UW-Plattevielle PSSPL and UT-Dallas CRSS Lab Seminar}}
+      \field{title}{{Modeling of Silicon Nanomembrane Pressure Sensors}}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item Entry 'dallas2019_GopalReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{prototypeHackathon2019}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{UW-Platteville Prototype Hackathon}
+      \field{title}{{Improving Disaster Response with a Network of Unmanned Aerial Vehicles}}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item Entry 'prototypeHackathon2019' (refs/presentations.bib): Invalid format 'April 2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{dallas2019_RoopaeiReaserch}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{UW-Plattevielle PSSPL and UT-Dallas CRSS Lab Seminar}}
+      \field{title}{{Development of a Real-time Object Detection Platform for UAVs}}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item Entry 'dallas2019_RoopaeiReaserch' (refs/presentations.bib): Invalid format 'November 2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{summerReaserch2019}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{UW Platteville Engineering Research Seminar}
+      \field{title}{{Research-Focused Summer: A summary of a productive and eventful summer of research}}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item Entry 'summerReaserch2019' (refs/presentations.bib): Invalid format 'October 2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{DSC_Presentation}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{UT-Dallas Dynamical Systems and Controls Research Seminar}}
+      \field{title}{{Literature Review of KF-based Secure State Estimation in Cyber-Physical Systems}}
+      \field{year}{2021}
+      \true{nocite}
+      \warn{\item Entry 'DSC_Presentation' (refs/presentations.bib): Invalid format 'April 2021' of date field 'date' - ignoring}
+    \endentry
+    \entry{RM2N2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1720d0ece13eb3f33b8e8196ba49fb1e}{%
+           family={{A. Drees, \textbf{J. Wagner}, B. Thronson, N. Shannon, D. Rohr, B. Wisinski, A. Heuermann and G. Gopalakrishnan}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \strng{fullhash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \strng{bibnamehash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \strng{authorbibnamehash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \strng{authornamehash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \strng{authorfullhash}{1720d0ece13eb3f33b8e8196ba49fb1e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{Regional Materials and Manufacturing Network Conference}}
+      \field{title}{{Shape Based Separation and Manipulation of Micro and Nanoscale Objects}}
+      \field{year}{January 2019}
+      \true{nocite}
+    \endentry
+    \entry{uwSym2019Gopal}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13ec6c479879205026e81fceb3dd0be2}{%
+           family={{D. Kelm, \textbf{J. Wagner}, C. Shackett, N. Hemenway, and G. Gopalakrishnan}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{13ec6c479879205026e81fceb3dd0be2}
+      \strng{fullhash}{13ec6c479879205026e81fceb3dd0be2}
+      \strng{bibnamehash}{13ec6c479879205026e81fceb3dd0be2}
+      \strng{authorbibnamehash}{13ec6c479879205026e81fceb3dd0be2}
+      \strng{authornamehash}{13ec6c479879205026e81fceb3dd0be2}
+      \strng{authorfullhash}{13ec6c479879205026e81fceb3dd0be2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{University of Wisconsin System Symposium}}
+      \field{title}{{Modeling the Behavior of Silicon Nanomembranes in MEMS Sensors}}
+      \field{year}{April 2019}
+      \true{nocite}
+    \endentry
+    \entry{EPpostersSpring2019}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bee0e03827c469340b7f81574e6d7418}{%
+           family={\textbf{J.\bibnamedelimi Wagner}},
+           familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c6851e89356261127e3d8580bd9dcc59}{%
+           family={Roopaei},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{fullhash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{bibnamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authorbibnamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authornamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authorfullhash}{3a21d968efc40482a4e75722d3a269f6}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{Department of Engineering Physics Poster Session}}
+      \field{title}{{Computer Vision at the Edge with Jetson Nano}}
+      \field{year}{May 2019}
+      \true{nocite}
+    \endentry
+    \entry{uwSym2019Roopaei}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=748be3e8dc67e1cd8d4d432d002967c5}{%
+           family={{\textbf{J. Wagner} and M. Roopaei}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \strng{fullhash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \strng{bibnamehash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \strng{authorbibnamehash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \strng{authornamehash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \strng{authorfullhash}{748be3e8dc67e1cd8d4d432d002967c5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{University of Wisconsin System Symposium}}
+      \field{title}{{Use of Multi-Agent Networks for Disaster Response}}
+      \field{year}{April 2019}
+      \true{nocite}
+    \endentry
+    \entry{wsts2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=147a14057a5b728a5c32113f27b71964}{%
+           family={{\textbf{J. Wagner}, D. Kelm, C. Shackett, N. Hemenway, and G. Gopalakrishnan}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{147a14057a5b728a5c32113f27b71964}
+      \strng{fullhash}{147a14057a5b728a5c32113f27b71964}
+      \strng{bibnamehash}{147a14057a5b728a5c32113f27b71964}
+      \strng{authorbibnamehash}{147a14057a5b728a5c32113f27b71964}
+      \strng{authornamehash}{147a14057a5b728a5c32113f27b71964}
+      \strng{authorfullhash}{147a14057a5b728a5c32113f27b71964}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{Wisconsin Science and Technology Symposium}}
+      \field{title}{{A Comparison of Modeling Methods for Silicon Nanomembrane Pressure Sensors}}
+      \field{year}{July 2019}
+      \true{nocite}
+    \endentry
+    \entry{ccwc2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bee0e03827c469340b7f81574e6d7418}{%
+           family={\textbf{J.\bibnamedelimi Wagner}},
+           familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c6851e89356261127e3d8580bd9dcc59}{%
+           family={Roopaei},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{fullhash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{bibnamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authorbibnamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authornamehash}{3a21d968efc40482a4e75722d3a269f6}
+      \strng{authorfullhash}{3a21d968efc40482a4e75722d3a269f6}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE - 10\textsuperscript{th} Annual Computing and Communications Workshop and Conference}
+      \field{title}{{Edge Based Decision Making in Disaster Response Systems}}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{ijaecs2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b045a12f4491218779c2836c0a708ee6}{%
+           family={{A. Fowler, E. Mutschelknaus, M. Roopaei, and \textbf{J. Wagner}}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b045a12f4491218779c2836c0a708ee6}
+      \strng{fullhash}{b045a12f4491218779c2836c0a708ee6}
+      \strng{bibnamehash}{b045a12f4491218779c2836c0a708ee6}
+      \strng{authorbibnamehash}{b045a12f4491218779c2836c0a708ee6}
+      \strng{authornamehash}{b045a12f4491218779c2836c0a708ee6}
+      \strng{authorfullhash}{b045a12f4491218779c2836c0a708ee6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advances in Electronics and Computer Science (IJAECS)}
+      \field{title}{{Learning in The Virtual Realm: A Platform for Immersive Engineering Education}}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
