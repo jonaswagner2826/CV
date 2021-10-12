@@ -1,0 +1,327 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{custom} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{.12\textwidth} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[none]{hyphenat} % Eliminate words from hyphenating at the end of a line
+
+
+\usepackage{multibib}
+\newcites{pub,poster,pres}{{Papers},{Posters},{Presentations}}
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Jonas} % Your first name
+\familyname{Wagner} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{7740 McCallum Blvd, Apt. 239}{Dallas, Tx 75252}
+\phone{(920) 410 5539}
+\email{jonas.wagner@utdallas.edu}
+% \homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+\vspace{- 0.5 cm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Since August 2020}
+{University of Texas at Dallas}
+{PhD Mechanical Engineering}{}
+{Concentration: Dynamic Systems and Controls} 
+{Overall GPA: 3.78}
+
+\cventry{Sept 2016 - May 2020}
+{University of Wisconsin - Platteville}
+{B.S. Engineering Physics and  B.S. Electrical Engineering}{}
+{Emphasis: Control Systems, Minor: Mathematics} 
+{Overall GPA: 3.37}
+
+\cventry{Sept 2012 - June 2016}
+{Oshkosh West High School}
+{B.S. Engineering Physics and  B.S. Electrical Engineering}{}
+{Emphasis: Control Systems, Minor: Mathematics} 
+{Overall GPA: 3.6}
+
+\cventry{Sept 2014 - May 2016}
+{University of Wisconsin - Oshkosh}
+{CAPP and Youth Option}
+{(Calculus 1,2,3, Physics 1,2 and Comp Math)}{}{}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+
+\cventry{Fall 2021}
+{Teaching Assistant - ***INSERT COURSE NAME HERE***}
+{Mechanical Engineering}
+{University of Texas at Dallas}
+{Professors: *****}
+{\begin{itemize}
+    \item *Update this*
+    % \item Managed discussion forums to answer student questions and provide supplementary instruction
+    % \item Graded weekly deliverable and answered any grading related questions
+    % \item Communicated with students via email and MS Teams to assist in assignment related questions
+\end{itemize}
+}
+
+% \cventry{Spring 2020}
+% {Teaching Assistant - Introduction to Mechanical Engineering II}
+% {Mechanical Engineering}
+% {University of Texas at Dallas}
+% {Professors: Dr. Oziel Rios and Dr. Dani Fadda}
+% {\begin{itemize}
+%     \item Managed discussion forums to answer student questions and provide supplementary instruction
+%     \item Graded weekly deliverable and answered any grading related questions
+%     \item Communicated with students via email and MS Teams to assist in assignment related questions
+% \end{itemize}
+% }
+
+\cventry{Aug 2020 - May 2021}
+{Teaching Assistant - Introduction to Mechanical Engineering I \& II}
+{Mechanical Engineering}
+{University of Texas at Dallas}
+{Professors: Dr. Oziel Rios and Dr. Dani Fadda}
+{\begin{itemize}
+    \item Managed discussion forums to answer student questions and provide supplementary instruction
+    \item Graded weekly deliverable and answered any grading related questions
+    \item Communicated with students via email and MS Teams to assist in assignment related questions
+\end{itemize}
+}
+
+\cventry{Spring 2020}
+{Lab Assistant - Introduction to Automatic Controls}
+{Electrical and Computer Engineering}
+{University of Wisconsin Platteville}
+{Professor: Dr. Mehdi Roopaei}
+{\begin{itemize}
+    \item Supervised and instructed junior and senior engineering students in control labs
+    \item Transitioned DC-motor control labs into virtual Simulink-based labs (still used today)
+    \item Provided students with video lectures for completing lab assignments virtually
+\end{itemize}
+}
+
+\cventry{Fall 2019}
+{Lab Assistant - Introduction to Engineering Projects}
+{Electrical and Computer Engineering}
+{University of Wisconsin Platteville}
+{Professor: Dr. Mehdi Roopaei}
+{\begin{itemize}
+    \item Assisted in teaching first year undergraduate students through the Electrical Engineering Module
+    \item Guided students through a lab performing simple analysis and testing of amplifier circuits
+\end{itemize}
+}
+
+\cventry{December 2019}
+{Guest Lecturer - FEA Automation Workshop}
+{Engineering Physics}
+{University of Wisconsin Platteville}
+{Professor: Dr. Gokul Gopalakrishnan}
+{\begin{itemize}
+    \item Hosted a workshop for senior engineering students for automating FEA testing using ANSYS workbench
+\end{itemize}
+}
+
+\cventry{July 2019}
+{Student Assistant - Online Course Development}
+{Center for Distance Learning}
+{University of Wisconsin Platteville}
+{Professor: Dr. Mehdi Roopaei}
+{Assisted in the development of course materials for the online graduate course:\\ Engineering 7310 - Control Systems Engineering I}
+
+
+\cventry{Fall 2016 - Spring 2020}
+{Robot Design and Controls Mentor}
+{FIRST Robotics Competition Team 171}
+{Platteville,WI}{}{
+\begin{itemize}
+    \item Mentor High School students to design, built, and control robots for competition
+    \item Teach fundamental math and physics concepts while inspiring students to pursue STEM careers
+    \item Facilitate the logistics of traveling for competition and outreach events
+    \item Restructured the club administration to allow expansion of the organization to additional STEM programs throughout the area K-12 education system
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Computer Skills}
+
+\subsection{\textbf{Programming Experience}}
+\cvitem{Basic}{C/C++/C\#, VBA, putty}
+\cvitem{Proficient}{Simulink, Mathematica, Linux, Git, \LaTeX}
+\cvitem{Advanced}{\textsc{Python}, numpy, matplotlib, MATLAB}
+
+\subsection{\textbf{Engineering Tools}}
+\cvitem{Proficient}{AutoCAD, ANSYS Workbench, Solidworks}
+\cvitem{Advanced}{Autodesk Inventor}
+
+\subsection{\textbf{Teaching Tools}}
+\cvitem{Basic}{Adobe Photoshop and Premier Pro, MS Stream}
+\cvitem{Proficient}{OBS Studio, MS Teams/PowerPoint/OneNote, Youtube Studio}
+\cvitem{Advanced}{eLearning/Blackboard, Slack, MS Outlook/Word/Excel}
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSEWORK SECTION
+%----------------------------------------------------------------------------------------
+\section{Relevant Coursework}
+
+\cvitem{Fall 2021}{Engineering Optimization $\cdot$ Elementary Analysis I}
+\cvitem{Spring 2021}{Nonlinear Systems $\cdot$ Convex Optimization $\cdot$ Dynamics of Complex Networks and Systems}
+\cvitem{Fall 2020}{Linear Systems $\cdot$ Optimal Estimation \& Kalman Filters $\cdot$ Probability \& Random Variables}
+\cvitem{Spring 2020}{Digital Signal Processing $\cdot$ Measurements and Instrumentation $\cdot$ Senior Design}
+\cvitem{Fall 2019}{Discrete Time Controls $\cdot$ Electric and Magnetic Fields}
+\cvitem{Spring 2019}{Modern Control Systems $\cdot$ Engineering Physics Sensors Lab $\cdot$ Analog Electronics}
+\cvitem{Fall 2018}{Automatic Controls $\cdot$ Logic and Digital Design $\cdot$ Applied Mechanics}
+\cvitem{Spring 2018}{Signals and Systems $\cdot$ Engineering Computation $\cdot$ Applied Optics}
+
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Awards}
+
+\cvitem{Spring 2021}{UTD Mechanical Engineering - Outstanding Contributions to Undergraduate Education}
+\cvitem{Fall 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+\cvitem{Spring 2019}{UW Platteville Protorype Hackathon - 3\textsuperscript{rd} Place}
+\cvitem{Spring 2019}{Foxconn Smart Cities Smart Futures Competition - Winner (Round 1 \& 2)\newline Honorable Mention (Round 3)}
+\cvitem{Spring 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\nocitepub{*}
+\bibliographystylepub{plain}
+\bibliographypub{refs/publications}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\nocitepres{*}
+\bibliographystylepres{plain}
+\bibliographypres{refs/presentations}
+
+%----------------------------------------------------------------------------------------
+%	POSTER PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\nociteposter{*}
+\bibliographystyleposter{plain}
+\bibliographyposter{refs/posters}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\input{undergraduate_reaserch}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Industry Experience}
+
+\cventry{May 2018 - Aug 2018}
+{Summer Employee - Blown Film Department}
+{Bemis Converter Films}
+{Oshkosh, WI}{}{
+\begin{itemize}
+    \item Helped operators of Blown Film Machines during 12-hour shifts
+    %\item Practiced safe manufacturing techniques
+    \item Operated forklift to transport supplies and waste
+    \item Filed reports to insure quality and accuracy of film composition
+\end{itemize}
+}
+
+\cventry{May 2017 - Aug 2017}
+{Summer Employee - Flexographic Press Department}
+{Bemis Specialty Films}
+{Oshkosh, WI}{}
+{
+\begin{itemize}
+    \item Assisted in mounting for flexographic printing presses
+    %\item Practiced safe manufacturing techniques
+    \item Operated Tug to transport flexographic press cylinders
+    \item Organized mounting priorities for 12 machines during 12-hour shifts
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Recent Volunteer Activities}
+
+\cventry{Fall 2016 - Spring 2020}
+{Robot Design and Controls Mentor}
+{FIRST Robotics Competition Team 171}
+{Platteville,WI}{}{
+\begin{itemize}
+    \item Mentor High School students to design, built, and control robots for competition
+    \item Teach fundamental math and physics concepts while inspiring students to pursue STEM careers
+    \item Facilitate the logistics of traveling for competition and outreach events
+    \item Restructured the club administration to allow expansion of the organization to additional STEM programs throughout the area K-12 education system
+\end{itemize}
+}
+
+\cventry{Dec. 2019}
+{Event Volunteer - Toy Modification}
+{UW-Platteville Holiday Toy Hack}{}{}{}
+
+\cventry{Oct. 2019}
+{Virtual Reality Day for Kids}
+{Platteville Public Library}{}{}{}
+
+\cventry{May 2018}
+{Event Volunteer - Robotics Demo}
+{College of Engineering, Math, and Science Expo}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Extracurricular Activities}
+
+\cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
+\cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
+\cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
+\cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}
+\cvitem{2016 - 2020}{\textbf{Choir} - University Singers \& Singing Pioneers}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
