@@ -15,11 +15,14 @@
 
 \usepackage[none]{hyphenat} % Eliminate words from hyphenating at the end of a line
 
-\usepackage[style=authoryear,sorting=none]{biblatex}
+\usepackage{ifthen} % Conditional Commands for latex
+\newboolean{short_cv}
+\setboolean{short_cv}{true}
+
+\usepackage[style=authoryear,sorting=none]{biblatex} % For doing references using bibtex
 \addbibresource{refs/publications.bib}
 \addbibresource{refs/posters.bib}
 \addbibresource{refs/presentations.bib}
-
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -46,66 +49,56 @@
 
 \makecvtitle % Print the CV title
 
-\vspace{- 0.5 cm}
+\vspace{- 1 cm}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Education}
 
-\cventry{Since August 2020}
+\cventry{Since \qquad Fall 2020}
 {The University of Texas at Dallas}
 {PhD Mechanical Engineering}{}
 {Concentration: Dynamic Systems and Controls} 
 {Overall GPA: 3.78}
 
-\cventry{Sept 2016 - May 2020}
+\cventry{Fall 2016 - Spring 2020}
 {University of Wisconsin-Platteville}
 {B.S. Engineering Physics and  B.S. Electrical Engineering}{}
 {Emphasis: Control Systems, Minor: Mathematics} 
 {Overall GPA: 3.37}
 
-\cventry{Sept 2012 - June 2016}
-{Oshkosh West High School}
-{B.S. Engineering Physics and  B.S. Electrical Engineering}{}
-{Emphasis: Control Systems, Minor: Mathematics} 
-{Overall GPA: 3.6}
 
-\cventry{Sept 2014 - May 2016}
-{University of Wisconsin-Oshkosh}
-{CAPP and Youth Option}
-{(Calculus 1,2,3, Physics 1,2 and Comp Math)}{}{}
+\ifthenelse{\boolean{short_cv}}{}{
+    \cventry{Fall 2012 - Spring 2016}
+    {Oshkosh West High School}{}{}{}
+    {Overall GPA: 3.6}
 
+    \cventry{Fall 2014 - Spring 2016}
+    {University of Wisconsin-Oshkosh}
+    {CAPP and Youth Option}
+    {(Calculus 1,2,3, Physics 1,2 and Comp Math)}{}{}
+}
 %----------------------------------------------------------------------------------------
 %	TEACHING EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Teaching Experience}
 
-\cventry{Fall 2021}
-{Teaching Assistant - Introduction to Mechanical Engineering I}
+\cventry{Fall 2021 \& Spring 2022}
+{Teaching Assistant - Introduction to Mechanical Engineering I \& II}
 {Mechanical Engineering}
 {The University of Texas at Dallas}
 {Professors: Dr. Oziel Rios and Dr. Dani Fadda}
 {\begin{itemize}
-    \item TA for 4 sections totalling more then 200 students
+    % \item TA for 4 sections totalling more then 200 students
     \item Instructed students in person on weekly labs and assignments
     \item Graded weekly deliverable and answered any grading related questions
+    \item Collected and aggregated assignments for ABET Accreditation
+    \item Developed new course activities and lectures for future semesters
 \end{itemize}}
 
-% \cventry{Spring 2020}
-% {Teaching Assistant - Introduction to Mechanical Engineering II}
-% {Mechanical Engineering}
-% {The University of Texas at Dallas}
-% {Professors: Dr. Oziel Rios and Dr. Dani Fadda}
-% {\begin{itemize}
-%     \item Managed discussion forums to answer student questions and provide supplementary instruction
-%     \item Graded weekly deliverable and answered any grading related questions
-%     \item Communicated with students via email and MS Teams to assist in assignment related questions
-% \end{itemize}
-% }
-
-\cventry{Aug 2020 - May 2021}
+\cventry{Fall 2020 \& Spring 2021}
 {Teaching Assistant - Introduction to Mechanical Engineering I \& II}
 {Mechanical Engineering}
 {The University of Texas at Dallas}
@@ -113,7 +106,7 @@
 {\begin{itemize}
     \item Managed discussion forums to answer student questions and provide supplementary instruction
     \item Graded weekly deliverable and answered any grading related questions
-    \item Communicated with students via email and MS Teams to assist in assignment related questions
+    \item Communicated with students via email and MS Teams to answer course-related questions
 \end{itemize}
 }
 
@@ -140,17 +133,17 @@
 \end{itemize}
 }
 
-\cventry{December 2019}
+\cventry{Dec 2019}
 {Guest Lecturer - FEA Automation Workshop}
 {Engineering Physics}
 {University of Wisconsin-Platteville}
 {Professor: Dr. Gokul Gopalakrishnan}
 {\begin{itemize}
-    \item Hosted a workshop for senior engineering students for automating FEA testing using ANSYS workbench
+    \item Hosted a workshop for automating FEA testing using ANSYS workbench
 \end{itemize}
 }
 
-\cventry{July 2019}
+\cventry{Summer 2019}
 {Student Assistant - Online Course Development}
 {Center for Distance Learning}
 {University of Wisconsin-Platteville}
@@ -171,9 +164,9 @@
 }
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
+%	Relevant SKILLS SECTION
 %----------------------------------------------------------------------------------------
-\section{Computer Skills}
+\section{Relevant Skills}
 
 \subsection{\textbf{Programming Experience}}
 \cvitem{Basic}{C/C++/C\#, Mathematica}
@@ -192,6 +185,7 @@
 %----------------------------------------------------------------------------------------
 \section{Relevant Coursework}
 
+\cvitem{Spring 2022}{Robust Control Systemsa $\cdot$ Multi-Agent Robotic Systems $\cdot$ Elementary Analysis II}
 \cvitem{Fall 2021}{Engineering Optimization $\cdot$ Elementary Analysis I}
 \cvitem{Spring 2021}{Nonlinear Systems $\cdot$ Convex Optimization $\cdot$ Dynamics of Complex Networks and Systems}
 \cvitem{Fall 2020}{Linear Systems $\cdot$ Optimal Estimation \& Kalman Filters $\cdot$ Probability \& Random Variables}
@@ -200,7 +194,7 @@
 \cvitem{Spring 2019}{Modern Control Systems $\cdot$ Engineering Physics Sensors Lab $\cdot$ Analog Electronics}
 \cvitem{Fall 2018}{Automatic Controls $\cdot$ Logic and Digital Design $\cdot$ Applied Mechanics}
 \cvitem{Spring 2018}{Signals and Systems $\cdot$ Engineering Computation $\cdot$ Applied Optics}
-
+    
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
@@ -212,114 +206,120 @@
 \cvitem{Spring 2019}{Foxconn Smart Cities Smart Futures Competition - Winner (Round 1 \& 2)\newline Honorable Mention (Round 3)}
 \cvitem{Spring 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS SECTION
-%----------------------------------------------------------------------------------------
 
-\nocite{*}
-\printbibliography[keyword=pub, title={Publications}]
+\ifthenelse{\boolean{short_cv}}{}{
+    %----------------------------------------------------------------------------------------
+    %	PUBLICATIONS SECTION
+    %----------------------------------------------------------------------------------------
 
-% \nocitepub{*}
-% \bibliographystylepub{plain}
-% \bibliographypub{refs/publications}
+    \nocite{*}
+    \printbibliography[keyword=pub, title={Publications}]
 
-% %----------------------------------------------------------------------------------------
-% %	PRESENTATIONS SECTION
-% %----------------------------------------------------------------------------------------
+    % \nocitepub{*}
+    % \bibliographystylepub{plain}
+    % \bibliographypub{refs/publications}
 
-\printbibliography[keyword=pres, title={Presentations}]
+    % %----------------------------------------------------------------------------------------
+    % %	PRESENTATIONS SECTION
+    % %----------------------------------------------------------------------------------------
 
-% %----------------------------------------------------------------------------------------
-% %	POSTER PRESENTATIONS SECTION
-% %----------------------------------------------------------------------------------------
+    \printbibliography[keyword=pres, title={Presentations}]
 
-\printbibliography[keyword=poster, title={Posters}]
+    % %----------------------------------------------------------------------------------------
+    % %	POSTER PRESENTATIONS SECTION
+    % %----------------------------------------------------------------------------------------
 
-% \newpage
-%----------------------------------------------------------------------------------------
-%	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+    \printbibliography[keyword=poster, title={Posters}]
 
-\input{undergraduate_reaserch}
+    % \newpage
+    %----------------------------------------------------------------------------------------
+    %	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	GRADUATE RESEARCH EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+    \input{undergraduate_reaserch}
 
-\input{graduate_research}
+    %----------------------------------------------------------------------------------------
+    %	GRADUATE RESEARCH EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Industry Experience}
-
-\cventry{May 2018 - Aug 2018}
-{Summer Employee - Blown Film Department}
-{Bemis Converter Films}
-{Oshkosh, WI}{}{
-\begin{itemize}
-    \item Helped operators of Blown Film Machines during 12-hour shifts
-    \item Operated forklift to transport supplies and waste
-    \item Filed reports to insure quality and accuracy of film composition
-\end{itemize}
+    \input{graduate_research}
 }
 
-\cventry{May 2017 - Aug 2017}
-{Summer Employee - Press Department}
-{Bemis Specialty Films}
-{Oshkosh, WI}{}
-{
-\begin{itemize}
-    \item Assisted in mounting for flexographic printing presses
-    \item Operated Tug to transport flexographic press cylinders
-    \item Organized mounting priorities for 12 machines during 12-hour shifts
-\end{itemize}
+\ifthenelse{\boolean{short_cv}}{}{
+    %----------------------------------------------------------------------------------------
+    %	WORK EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+
+    \section{Industry Experience}
+
+    \cventry{May 2018 - Aug 2018}
+    {Summer Employee - Blown Film Department}
+    {Bemis Converter Films}
+    {Oshkosh, WI}{}{
+    \begin{itemize}
+        \item Helped operators of Blown Film Machines during 12-hour shifts
+        \item Operated forklift to transport supplies and waste
+        \item Filed reports to insure quality and accuracy of film composition
+    \end{itemize}
+    }
+
+    \cventry{May 2017 - Aug 2017}
+    {Summer Employee - Press Department}
+    {Bemis Specialty Films}
+    {Oshkosh, WI}{}
+    {
+    \begin{itemize}
+        \item Assisted in mounting for flexographic printing presses
+        \item Operated Tug to transport flexographic press cylinders
+        \item Organized mounting priorities for 12 machines during 12-hour shifts
+    \end{itemize}
+    }
 }
 
-%----------------------------------------------------------------------------------------
-%	VOLUNTEER ACTIVITIES SECTION
-%----------------------------------------------------------------------------------------
+\ifthenelse{\boolean{short_cv}}{}{
+    %----------------------------------------------------------------------------------------
+    %	VOLUNTEER ACTIVITIES SECTION
+    %----------------------------------------------------------------------------------------
 
-\section{Recent Volunteer Activities}
+    \section{Recent Volunteer Activities}
 
-\cventry{Fall 2016 - Spring 2020}
-{Robot Design and Controls Mentor}
-{FIRST Robotics Competition Team 171}
-{Platteville,WI}{}{
-\begin{itemize}
-    \item Mentor High School students to design, built, and control robots for competition
-    \item Teach fundamental math and physics concepts while inspiring students to pursue STEM careers
-    \item Facilitate the logistics of traveling for competition and outreach events
-    \item Restructured the club administration to allow expansion of the organization to additional STEM programs throughout the area K-12 education system
-\end{itemize}
+    \cventry{Since \quad Spring 2022}
+    {Graduate Student Mentor}
+    {Johnson School of Engineering and Computer Science}{}{}{}
+
+    \cventry{Fall 2016 - Spring 2020}
+    {Robot Design and Controls Mentor}
+    {FIRST Robotics Competition Team 171}
+    {Platteville,WI}{}{}
+
+    \cventry{Dec 2019}
+    {Event Volunteer - Toy Modification}
+    {UW-Platteville Holiday Toy Hack}{}{}{}
+
+    \cventry{Oct 2019}
+    {Virtual Reality Day for Kids}
+    {Platteville Public Library}{}{}{}
+
+    \cventry{May 2018}
+    {Event Volunteer - Robotics Demo}
+    {College of Engineering, Math, and Science Expo}{}{}{}
 }
 
-\cventry{Dec. 2019}
-{Event Volunteer - Toy Modification}
-{UW-Platteville Holiday Toy Hack}{}{}{}
 
-\cventry{Oct. 2019}
-{Virtual Reality Day for Kids}
-{Platteville Public Library}{}{}{}
+\ifthenelse{\boolean{short_cv}}{}{
+    %----------------------------------------------------------------------------------------
+    %	EXTRACURRICULAR ACTIVITIES SECTION
+    %----------------------------------------------------------------------------------------
 
-\cventry{May 2018}
-{Event Volunteer - Robotics Demo}
-{College of Engineering, Math, and Science Expo}{}{}{}
+    \section{Extracurricular Activities}
 
-
-%----------------------------------------------------------------------------------------
-%	EXTRACURRICULAR ACTIVITIES SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Extracurricular Activities}
-
-\cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
-\cvitem{Since 2021}{\textbf{Choir} - Credo Community Choir}
-\cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
-\cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
-\cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}
-\cvitem{2016 - 2020}{\textbf{Choir} - University Singers \& Singing Pioneers}
+    \cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
+    \cvitem{Since 2021}{\textbf{Choir} - Credo Community Choir}
+    \cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
+    \cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
+    \cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}
+    \cvitem{2016 - 2020}{\textbf{Choir} - University Singers \& Singing Pioneers}
+}
 
 %----------------------------------------------------------------------------------------
 

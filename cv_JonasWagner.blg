@@ -1,29 +1,9 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'cv_JonasWagner.blg'
-[244] biber-MSWIN32:340> INFO - === 
-[312] Biber.pm:415> INFO - Reading 'cv_JonasWagner.bcf'
-[487] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[506] Biber.pm:4340> INFO - Processing section 0
-[523] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/publications.bib' for section 0
-[596] bibtex.pm:1689> INFO - LaTeX decoding ...
-[601] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/publications.bib'
-[642] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/posters.bib' for section 0
-[707] bibtex.pm:1689> INFO - LaTeX decoding ...
-[721] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/posters.bib'
-[726] Utils.pm:395> WARN - legacy year field 'July 2019' in entry 'wsts2019' is not an integer - this will probably not sort properly.
-[732] Utils.pm:395> WARN - legacy year field 'January 2019' in entry 'RM2N2019' is not an integer - this will probably not sort properly.
-[737] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Roopaei' is not an integer - this will probably not sort properly.
-[741] Utils.pm:395> WARN - legacy year field 'April 2019' in entry 'uwSym2019Gopal' is not an integer - this will probably not sort properly.
-[750] Utils.pm:395> WARN - legacy year field 'May 2019' in entry 'EPpostersSpring2019' is not an integer - this will probably not sort properly.
-[751] Utils.pm:411> ERROR - Name "\textbf{J. Wagner}, D. Kelm, C. Shackett, N. Hemenway," has too many commas, skipping entry 'RM2N2020'
-[753] Biber.pm:4531> INFO - Looking for bibtex format file 'refs/presentations.bib' for section 0
-[824] bibtex.pm:1689> INFO - LaTeX decoding ...
-[834] bibtex.pm:1494> INFO - Found BibTeX data source 'refs/presentations.bib'
-[869] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[870] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[870] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[870] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[887] bbl.pm:654> INFO - Writing 'cv_JonasWagner.bbl' with encoding 'UTF-8'
-[893] bbl.pm:757> INFO - Output to cv_JonasWagner.bbl
-[894] Biber.pm:128> INFO - WARNINGS: 5
-[895] Biber.pm:132> INFO - ERRORS: 1
+[162] biber-MSWIN32:340> INFO - === 
+[212] Biber.pm:415> INFO - Reading 'cv_JonasWagner.bcf'
+[383] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[391] Utils.pm:395> WARN - The file 'cv_JonasWagner.bcf' does not contain any citations!
+[407] bbl.pm:654> INFO - Writing 'cv_JonasWagner.bbl' with encoding 'UTF-8'
+[407] bbl.pm:757> INFO - Output to cv_JonasWagner.bbl
+[408] Biber.pm:128> INFO - WARNINGS: 1
