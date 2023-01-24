@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.1)  22 JUN 2022 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.1)  23 JAN 2023 23:12
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/Jonas/OneDrive - The University of Texas at Dallas/Professional/CV/cv_JonasWagner.tex"
@@ -693,7 +693,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [2] (./graduate_research.tex) [3] (./undergraduate_reaserch.tex) [4] [5] (./cv_JonasWagner.aux)
+ [2] (./graduate_research.tex [3]) (./undergraduate_reaserch.tex [4]) [5] [6] (./cv_JonasWagner.aux)
 Package rerunfilecheck Info: File `cv_JonasWagner.out' has not changed.
 (rerunfilecheck)             Checksum: 2ACB832F221C6E3E2BCB9E9D05972F64;2204.
 Package logreq Info: Writing requests to 'cv_JonasWagner.run.xml'.
@@ -701,18 +701,18 @@ Package logreq Info: Writing requests to 'cv_JonasWagner.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19251 strings out of 478599
- 330190 string characters out of 5858102
- 1198215 words of memory out of 5000000
+ 19250 strings out of 478599
+ 330174 string characters out of 5858102
+ 1197214 words of memory out of 5000000
  36687 multiletter control sequences out of 15000+600000
- 489243 words of font info for 137 fonts, out of 8000000 for 9000
+ 489160 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,83p,825b,1373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_JonasWagner.pdf (5 pages, 325315 bytes).
+Output written on cv_JonasWagner.pdf (6 pages, 326228 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  47233 words of extra memory for PDF output out of 51595 (max. 10000000)
 
