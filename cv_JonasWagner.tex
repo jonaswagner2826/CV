@@ -18,6 +18,8 @@
 \usepackage{ifthen} % Conditional Commands for latex
 \newboolean{short_cv}
 \setboolean{short_cv}{true}
+\newboolean{include_refs}
+\setboolean{include_refs}{true}
 
 \usepackage[style=authoryear,sorting=none]{biblatex} % For doing references using bibtex
 \addbibresource{refs/publications.bib}
@@ -58,9 +60,9 @@
 
 \cventry{Since \qquad Fall 2020}
 {The University of Texas at Dallas}
-{PhD Mechanical Engineering}{}
+{PhD Mechanical Engineering (M.S completed in 2023)}{}
 {Concentration: Dynamic Systems and Controls} 
-{Overall GPA: 3.47}
+{Overall GPA: 3.55}
 
 \cventry{Fall 2016 - Spring 2020}
 {University of Wisconsin-Platteville}
@@ -87,6 +89,25 @@
 %----------------------------------------------------------------------------------------
 
 \section{Teaching Experience}
+\cventry{Fall 2024}
+{Course Instructor - Systems and Controls Lab}
+{Mechanical Engineering}
+{The University of Texas at Dallas}{}
+{\begin{itemize}
+    \item Instructed a senior-level systems and controls course with 128 students
+    \item Held weekly lecture sessions preparing students for the labs
+    \item Updated the course assignments and lab procedures to improve students learning outcomes
+    \item Managed the 5 labs sections with the help of 2 TAs
+\end{itemize}}
+
+\cventry{Spring 2023 - Present}
+{Team Mentor - Comet Aerobics}
+{AIAA UTD}
+{The University of Texas at Dallas}{}
+{\begin{itemize}
+    \item Mentored the technical and administrative teams for the NASA Lunarbotics competition
+    \item Primarily provided guidance on theory and design for the electical and controls sub-teams
+\end{itemize}}
 
 \cventry{Fall 2023}
 {Teaching Assistant - Systems and Controls}
@@ -100,11 +121,10 @@
     % \item Communicated with students via email and MS Teams to answer course-related questions
 \end{itemize}}
 
-\cventry{Spring 2023 - Spring 2024}
-{Team Mentor - UTDesign EPICS}
-{Erik Jonsson School of Engineering and Computer Science}
-{The University of Texas at Dallas}
-{}
+\cventry{Spring 2023 - Present}
+{Engineering Mentor - UTDesign EPICS}
+{Jonsson School of ECS}%Erik Jonsson School of Engineering and Computer Science}
+{The University of Texas at Dallas}{}
 {\begin{itemize}
     \item Mentored multiple five-person teams of undergraduate students 
     \item Assisted nonprofit sponsors in defining the project requirements
@@ -150,38 +170,49 @@
 % \end{itemize}
 % }
 
-\cventry{Spring 2020}
-{Lab Assistant - Introduction to Automatic Controls}
+\cventry{Fall 2019 - Spring 2020}
+{Lab Assistant - Intro to Engineering Projects/Intro to Automatic Controls}
 {Electrical and Computer Engineering}
 {University of Wisconsin-Platteville}
 {Professor: Dr. Mehdi Roopaei}
 {\begin{itemize}
-    \item Supervised and instructed junior and senior engineering students in control labs
-    \item Transitioned DC-motor control labs into virtual Simulink-based labs (still used today)
-    \item Provided students with video lectures for completing lab assignments virtually
-\end{itemize}
-}
-
-\cventry{Fall 2019}
-{Lab Assistant - Introduction to Engineering Projects}
-{Electrical and Computer Engineering}
-{University of Wisconsin-Platteville}
-{Professor: Dr. Mehdi Roopaei}
-{\begin{itemize}
+    \item Supervised and insisted in instruction for lab courses
     \item Assisted in teaching first year undergraduate students through the Electrical Engineering Module
-    \item Guided students through a lab performing simple analysis and testing of amplifier circuits
-\end{itemize}
-}
+    \item Transitioned DC-motor control labs into virtual Simulink-based lab for use during COVID
+\end{itemize}}
 
-\cventry{Dec 2019}
-{Guest Lecturer - FEA Automation Workshop}
-{Engineering Physics}
-{University of Wisconsin-Platteville}
-{Professor: Dr. Gokul Gopalakrishnan}
-{\begin{itemize}
-    \item Hosted a workshop for automating FEA testing using ANSYS workbench
-\end{itemize}
-}
+% \cventry{Spring 2020}
+% {Lab Assistant - Introduction to Automatic Controls}
+% {Electrical and Computer Engineering}
+% {University of Wisconsin-Platteville}
+% {Professor: Dr. Mehdi Roopaei}
+% {\begin{itemize}
+%     \item Supervised and instructed junior and senior engineering students in control labs
+%     \item Transitioned DC-motor control labs into virtual Simulink-based labs (still used today)
+%     \item Provided students with video lectures for completing lab assignments virtually
+% \end{itemize}
+% }
+
+% \cventry{Fall 2019}
+% {Lab Assistant - Introduction to Engineering Projects}
+% {Electrical and Computer Engineering}
+% {University of Wisconsin-Platteville}
+% {Professor: Dr. Mehdi Roopaei}
+% {\begin{itemize}
+%     \item Assisted in teaching first year undergraduate students through the Electrical Engineering Module
+%     \item Guided students through a lab performing simple analysis and testing of amplifier circuits
+% \end{itemize}
+% }
+
+% \cventry{Dec 2019}
+% {Guest Lecturer - FEA Automation Workshop}
+% {Engineering Physics}
+% {University of Wisconsin-Platteville}
+% {Professor: Dr. Gokul Gopalakrishnan}
+% {\begin{itemize}
+%     \item Hosted a workshop for automating FEA testing using ANSYS workbench
+% \end{itemize}
+% }
 
 \cventry{Summer 2019}
 {Student Assistant - Online Course Development}
@@ -198,7 +229,7 @@
 {FIRST Robotics Competition Team 171}
 {Platteville,WI}{}{
 \begin{itemize}
-    \item Mentor High School students to design, built, and control robots for competition
+    \item Mentored High School students to design, built, and control robots for competition
     \item Teach fundamental math and physics concepts while inspiring students to pursue STEM careers
     \item Facilitate the logistics of traveling for competition and outreach events
     \item Restructured the club administration to allow expansion of the organization to additional STEM programs throughout the area K-12 education system
@@ -256,51 +287,44 @@
 %----------------------------------------------------------------------------------------
 \section{Awards}
 
+\cvitem{2022-Present}{UTD Jonsson School - Dean's Teaching Fellowship}
 \cvitem{Spring 2022}{UTD Jonsson School - Best Teaching Assistant in Mechanical Engineering}
-\cvitem{Spring 2022}{UTD Jonsson School - Deans Teaching Fellowship}
+% \cvitem{Spring 2022}{UTD Jonsson School - Deans Teaching Fellowship}
 \cvitem{Spring 2021}{UTD Mechanical Engineering - Outstanding Contributions to Undergraduate Education}
-\cvitem{Fall 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+\cvitem{2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+% \cvitem{Fall 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
 \cvitem{Spring 2019}{UW Platteville Prototype Hackathon - 3\textsuperscript{rd} Place}
 \cvitem{Spring 2019}{Foxconn Smart Cities Smart Futures Competition - Winner (Round 1 \& 2)\newline Honorable Mention (Round 3)}
-\cvitem{Spring 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+% \cvitem{Spring 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
 
-\ifthenelse{\boolean{short_cv}}{}{
-    %----------------------------------------------------------------------------------------
-    %	PUBLICATIONS SECTION
-    %----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\nocite{*}
+\printbibliography[keyword=pub,title={Publications}]
+% \bibliographypub{refs/publications}
+% % \nocitepub{*}
+% % \bibliographystylepub{plain}
+% % \bibliographypub{refs/publications}
+% % %----------------------------------------------------------------------------------------
+% % %	PRESENTATIONS SECTION
+% % %----------------------------------------------------------------------------------------
+% \ifthenelse{short_cv}{}{\printbibliography[keyword=pres, title={Presentations}]}
+% % %----------------------------------------------------------------------------------------
+% % %	POSTER PRESENTATIONS SECTION
+% % %----------------------------------------------------------------------------------------
 
-    \nocite{*}
-    \printbibliography[keyword=pub, title={Publications}]
+% \ifthenelse{short_cv}{}{\printbibliography[keyword=poster, title={Posters}]}
+% %----------------------------------------------------------------------------------------
+% %	GRADUATE RESEARCH EXPERIENCE SECTION
+% %----------------------------------------------------------------------------------------
 
-    % \nocitepub{*}
-    % \bibliographystylepub{plain}
-    % \bibliographypub{refs/publications}
-
-    % %----------------------------------------------------------------------------------------
-    % %	PRESENTATIONS SECTION
-    % %----------------------------------------------------------------------------------------
-
-    \printbibliography[keyword=pres, title={Presentations}]
-
-    % %----------------------------------------------------------------------------------------
-    % %	POSTER PRESENTATIONS SECTION
-    % %----------------------------------------------------------------------------------------
-
-    \printbibliography[keyword=poster, title={Posters}]
-
-    %----------------------------------------------------------------------------------------
-    %	GRADUATE RESEARCH EXPERIENCE SECTION
-    %----------------------------------------------------------------------------------------
-
-    \input{graduate_research}
-
-    % \newpage
-    %----------------------------------------------------------------------------------------
-    %	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
-    %----------------------------------------------------------------------------------------
-
-    \input{undergraduate_reaserch}
-}
+% \ifthenelse{short_cv}{}{\input{graduate_research}}
+% % \newpage
+% %----------------------------------------------------------------------------------------
+% %	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
+% %----------------------------------------------------------------------------------------
+% \ifthenelse{short_cv}{}{\input{undergraduate_reaserch}}
 
 \ifthenelse{\boolean{short_cv}}{}{
     %----------------------------------------------------------------------------------------
