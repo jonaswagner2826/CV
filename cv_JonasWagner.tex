@@ -17,7 +17,7 @@
 
 \usepackage{ifthen} % Conditional Commands for latex
 \newboolean{short_cv}
-\setboolean{short_cv}{true}
+\setboolean{short_cv}{false}
 \newboolean{include_refs}
 \setboolean{include_refs}{true}
 
@@ -60,15 +60,15 @@
 
 \cventry{Since \qquad Fall 2020}
 {The University of Texas at Dallas}
-{PhD Mechanical Engineering (M.S completed in 2023)}{}
+{PhD Mechanical Engineering (M.S. obtained in 2023)}{}
 {Concentration: Dynamic Systems and Controls} 
-{Overall GPA: 3.55}
+{GPA: 3.55}
 
 \cventry{Fall 2016 - Spring 2020}
 {University of Wisconsin-Platteville}
 {B.S. Engineering Physics and  B.S. Electrical Engineering}{}
 {Emphasis: Control Systems, Minor: Mathematics} 
-{Overall GPA: 3.37}
+{GPA: 3.37}
 
 
 % \ifthenelse{
@@ -89,25 +89,58 @@
 %----------------------------------------------------------------------------------------
 
 \section{Teaching Experience}
-\cventry{Fall 2024/ Spring 2025/ Summer 2026}
-{Course Instructor - Systems and Controls Lab}
+\cventry{Fall 2026}
+{Teaching Associate (Course Instructor) - Systems and Controls}
 {Mechanical Engineering}
 {The University of Texas at Dallas}{}
 {\begin{itemize}
-    \item Instructed a senior-level systems and controls course with 128 students
+    \item Assigned to teach a large section (80 students) of the systems and controls lecture
+    \item Collaborated with other instructor to develop custom course textbook, materials, and assessments
+    \item Demos, exploratory learning tasks, and in-class working problems were developed to keep students engaged and combat the deskilling from improper generative AI usage
+    \item Lessons continue to be learned throughout this experimental teaching process
+\end{itemize}}
+
+\cventry{Summer 2026}
+{Teaching Associate (Course Instructor) - Systems and Controls Lab}
+{Mechanical Engineering}
+{The University of Texas at Dallas}{}
+{\begin{itemize}
+    \item Instructor for the first summer offering of the Systems and Controls Lab
+    \item Held alternating weeks of lectures and labs for 2 course sections
+    \item Modified course for a shorter summer semester 
+    \item Introduced in-lab quizzes to more accurately evaluate student learning in the age of AI
+\end{itemize}}
+
+\cventry{Spring 2026}
+{Teaching Associate (Course Instructor) - Computer Aided Design Lab}
+{Mechanical Engineering}
+{The University of Texas at Dallas}{}
+{\begin{itemize}
+    \item Instructor for one section of the CAD Lab course on Creo Parametric (34 students)
+    \item Lectured on foundational drafting principles and modeling techniques
+    \item Guided students through tutorials and evaluated capabilities with in-class modeling assignments
+\end{itemize}}
+
+\cventry{Fall 2024/ Spring 2025}
+{Teaching Associate (Course Instructor) - Systems and Controls Lab}
+{Mechanical Engineering}
+{The University of Texas at Dallas}{}
+{\begin{itemize}
+    \item Taught the senior-level systems and controls course lab with up to 128 students
     \item Held weekly lecture sessions preparing students for the labs
     \item Updated the course assignments and lab procedures to improve students learning outcomes
     \item Managed the 5 labs sections with the help of 2 TAs
 \end{itemize}}
 
-% \cventry{Spring 2023 - Present}
+% \cventry{}
 % {Team Mentor - Comet Aerobics}
 % {AIAA UTD}
 % {The University of Texas at Dallas}{}
 % {\begin{itemize}
 %     \item Mentored the technical and administrative teams for the NASA Lunarbotics competition
-%     \item Primarily provided guidance on theory and design for the electical and controls sub-teams
+%     \item Primarily provided guidance on theory and design for the electrical and controls sub-teams
 % \end{itemize}}
+
 \cventry{Spring 2023 - Present}
 {Engineering Mentor - UTDesign EPICS}
 {Jonsson School of ECS}%Erik Jonsson School of Engineering and Computer Science}
@@ -240,25 +273,25 @@
 % %----------------------------------------------------------------------------------------
 % \section{Certifications}
 
-% \cvitem{heading}{text}
-\ifthenelse{\boolean{short_cv}}{}{
-%----------------------------------------------------------------------------------------
-%	Relevant SKILLS SECTION
-%----------------------------------------------------------------------------------------
-\section{Relevant Skills}
+% % \cvitem{heading}{text}
+% \ifthenelse{\boolean{short_cv}}{}{
+% %----------------------------------------------------------------------------------------
+% %	Relevant SKILLS SECTION
+% %----------------------------------------------------------------------------------------
+% \section{Relevant Skills}
 
-\subsection{\textbf{Programming Experience}}
-\cvitem{Basic}{C/C++/C\#, Mathematica}
-\cvitem{Proficient}{Linux, Git, \LaTeX}
-\cvitem{Advanced}{\textsc{Python}, numpy, matplotlib, MATLAB, Simulink}
+% \subsection{\textbf{Programming Experience}}
+% \cvitem{Basic}{C/C++/C\#, Mathematica}
+% \cvitem{Proficient}{Linux, Git, \LaTeX}
+% \cvitem{Advanced}{\textsc{Python}, numpy, matplotlib, MATLAB, Simulink}
 
-\subsection{\textbf{Engineering Tools}}
-\cvitem{Proficient}{AutoCAD, ANSYS Workbench, Solidworks, Autodesk Inventor}
+% \subsection{\textbf{Engineering Tools}}
+% \cvitem{Proficient}{AutoCAD, ANSYS Workbench, Solidworks, Autodesk Inventor}
 
-\subsection{\textbf{Teaching Tools}}
-\cvitem{Proficient}{Adobe Photoshop and Premier Pro, OBS Studio}
-\cvitem{Advanced}{eLearning/Blackboard, MS Outlook/Word/Excel/Teams/PowerPoint/OneNote}
-}
+% \subsection{\textbf{Teaching Tools}}
+% \cvitem{Proficient}{Adobe Photoshop and Premier Pro, OBS Studio}
+% \cvitem{Advanced}{eLearning/Blackboard, MS Outlook/Word/Excel/Teams/PowerPoint/OneNote}
+% }
 
 % \ifthenelse{\boolean{short_cv}}{}{
 %----------------------------------------------------------------------------------------
@@ -266,10 +299,15 @@
 %----------------------------------------------------------------------------------------
 \section{Relevant Coursework}
 
-\cvitem{2022-2023}{Real Analysis $\cdot$ Optimal Control and Dynamic Programming $\cdot$ Model Predictive Control $\cdot$ Deep Learning}
-% \cvitem{Fall 2023}{Model Predictive Control}
-% \cvitem{Spring 2023}{Optimal Control and Dynamic Programming}
-% \cvitem{Fall 2022}{Real Analysis}
+\ifthenelse{\boolean{short_cv}}{
+\cvitem{2022-2026}{Real Analysis $\cdot$ Optimal Control and Dynamic Programming $\cdot$ Model Predictive Control $\cdot$ Deep Learning $\cdot$ Engineering Design Team Coaching}
+}{
+\cvitem{Fall 2026}{Engineering Design Team Coaching}
+\cvitem{Spring 2025}{Deep Learning}
+\cvitem{Fall 2023}{Model Predictive Control}
+\cvitem{Spring 2023}{Optimal Control and Dynamic Programming}
+\cvitem{Fall 2022}{Real Analysis}
+}
 \cvitem{Spring 2022}{Robust Control Systems $\cdot$ Multi-Agent Robotic Systems $\cdot$ Elementary Analysis II}
 \cvitem{Fall 2021}{Engineering Optimization $\cdot$ Elementary Analysis I}
 \cvitem{Spring 2021}{Nonlinear Systems $\cdot$ Convex Optimization $\cdot$ Dynamics of Complex Networks and Systems}
@@ -288,14 +326,24 @@
 \section{Awards}
 
 \cvitem{2022-Present}{UTD Jonsson School - Dean's Teaching Fellowship}
+\cvitem{Fall 2025}{UTD Homecoming Court - Royalty}
 \cvitem{Spring 2022}{UTD Jonsson School - Best Teaching Assistant in Mechanical Engineering}
 % \cvitem{Spring 2022}{UTD Jonsson School - Deans Teaching Fellowship}
 \cvitem{Spring 2021}{UTD Mechanical Engineering - Outstanding Contributions to Undergraduate Education}
-\cvitem{2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+\cvitem{S/F 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
 % \cvitem{Fall 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
 \cvitem{Spring 2019}{UW Platteville Prototype Hackathon - 3\textsuperscript{rd} Place}
-\cvitem{Spring 2019}{Foxconn Smart Cities Smart Futures Competition - Winner (Round 1 \& 2)\newline Honorable Mention (Round 3)}
+\cvitem{Spring 2019}{Foxconn Smart Cities Smart Futures Competition - Winner (Round 1 \& 2)}% \newline Honorable Mention (Round 3)}
 % \cvitem{Spring 2019}{Undergraduate Research, Scholastic and Creative Activity (URSCA) Scholarship}
+}
+
+\ifthenelse{\boolean{short_cv}}{}{
+%----------------------------------------------------------------------------------------
+%	Affiliations SECTION
+%----------------------------------------------------------------------------------------
+\section{Affiliations}
+\cvitem{Since 2025}{IEEE Control System Society, Student Member}
+\cvitem{Since 2020}{IEEE, Student Member}
 }
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS SECTION
@@ -315,16 +363,20 @@
 % % %----------------------------------------------------------------------------------------
 
 % \ifthenelse{short_cv}{}{\printbibliography[keyword=poster, title={Posters}]}
+
+
 % %----------------------------------------------------------------------------------------
 % %	GRADUATE RESEARCH EXPERIENCE SECTION
 % %----------------------------------------------------------------------------------------
-
-% \ifthenelse{short_cv}{}{\input{graduate_research}}
+% \ifthenelse{\boolean{short_cv}}{}{\input{graduate_research}}
 % % \newpage
-% %----------------------------------------------------------------------------------------
-% %	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
-% %----------------------------------------------------------------------------------------
-% \ifthenelse{short_cv}{}{\input{undergraduate_reaserch}}
+%----------------------------------------------------------------------------------------
+%	UNDERGRADUATE RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\ifthenelse{\boolean{short_cv}}{}{\input{undergraduate_reaserch}}
+
+
+
 
 \ifthenelse{\boolean{short_cv}}{}{
     %----------------------------------------------------------------------------------------
@@ -357,60 +409,121 @@
     }
 }
 
-\ifthenelse{\boolean{short_cv}}{}{
-    %----------------------------------------------------------------------------------------
-    %	VOLUNTEER ACTIVITIES SECTION
-    %----------------------------------------------------------------------------------------
-
-    \section{Recent Volunteer Activities}
-
-    \cventry{Since \quad Spring 2022}
-    {Team Mentor}
-    {UTDesign EPICS}
-    {Jonsson School of Engineering and Computer Science}{}{}
-
-    \cventry{Since \quad Spring 2022}
-    {Graduate Student Mentor}
-    {Peer Mentoring Program}
-    {Jonsson School of Engineering and Computer Science}{}{}
-
-    \cventry{Since \quad Fall 2022}
-    {Committee Member}
-    {Strategic Planning Committee}
-    {Jonsson School of Engineering and Computer Science}{}{}
-
-    \cventry{Fall 2016 - Spring 2020}
-    {Robot Design and Controls Mentor}
-    {FIRST Robotics Competition Team 171}
-    {Platteville,WI}{}{}
-
-    \cventry{Dec 2019}
-    {Event Volunteer - Toy Modification}
-    {UW-Platteville Holiday Toy Hack}{}{}{}
-
-    \cventry{Oct 2019}
-    {Virtual Reality Day for Kids}
-    {Platteville Public Library}{}{}{}
-
-    \cventry{May 2018}
-    {Event Volunteer - Robotics Demo}
-    {College of Engineering, Math, and Science Expo}{}{}{}
-}
 
 \ifthenelse{\boolean{short_cv}}{}{
-    %----------------------------------------------------------------------------------------
-    %	EXTRACURRICULAR ACTIVITIES SECTION
-    %----------------------------------------------------------------------------------------
 
-    \section{Extracurricular Activities}
+%----------------------------------------------------------------------------------------
+%	Campus/Community Engagement SECTION
+%----------------------------------------------------------------------------------------
+\section{Community Engagement}
 
-    \cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
-    \cvitem{Since 2021}{\textbf{Choir} - Credo Community Choir}
-    \cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
-    \cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
-    \cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}
-    \cvitem{2016 - 2020}{\textbf{Choir} - University Singers \& Singing Pioneers}
+\cventry{Spring 2022 - Present}{Committee Member}{Center for Students and Scolars in Controls (CSSC)}
+{}{}{\begin{itemize}
+    \item Assist in developing and hosting the grad-student led control systems workshops each semester
+    \item Participated in the weekly (primarily student-led) DSC seminars
+    \item As Secretary (Fall 2025-Spring 2026) I led weekly meetings and compiled the monthly newsletter
+    \item Prepared and taught Latex (overleaf) worship in Fall 2022
+\end{itemize}}
+
+\cventry{Spring 2024 - Present}{Committee Member}{Mechanical Engineering Graduate Student Association (MEGA) at UTD}{}{}{}
+\cventry{Spring 2022 - Fall 2024}{Graduate Student Mentor}{Jonnsson School of Engineering and Computer Science}{}{}{}
+\cventry{Fall 2022 - Spring 2023}{Committee Member}{Strategic Planning Committee}{Jonsson School of Engineering and Computer Science}{}{}
+
+\cventry{Fall 2020 - Present}
+{Taskmaster \textnormal{(Secretary/VP/Committee Chair)}}
+{For Autistic Empowerment (FAE) @ UTD}
+{}{}{\begin{itemize}
+    \item Ensure all important administrative tasks are attended to during weekly meetings
+    \item Led the Constitution Committee during club restructuring (F24) and bylaw updates (F26)
+    \item Organized travel for in-person conferences (S22/S23)
+    \item Represent FAE (and Wesley@UTD in 2023-2026) on campus through the Rainbow Coalition
+    \item Guide other students through life's struggles as effectively the club elder 
+\end{itemize}}
+
+% \cventry{Fall 2026 - Present}{Choir Member}{Arapaho United Methodist Church}{Richardson, TX}{}{}
+\cvitem{Since 2026}{Arapaho UMC Choir}
+\cventry{Fall 2022 - Spring 2026}
+{Worship Band Leader}
+{Synergy Wesley Foundation/Wesley@UTD}
+{Richardson, TX}{}{
+\begin{itemize}
+    \item Helped lead worship (vocal/keyboard) during weekly ``Wesley Wednesday''
+    \item Organized and supervised ``Synergy Social'' events
+    \item Represent Wesley throughout DFW through Black Tie Dinner Events
+\end{itemize}
 }
+\cvitem{Since 2021}{Credo Community Choir}
+% \cventry{Fall 2021 - Present}{Choir Member}{Credo Community Choir}{Richardson, TX}{}{}
+
+
+
+
+
+
+}
+
+
+% \ifthenelse{\boolean{short_cv}}{}{
+%     %----------------------------------------------------------------------------------------
+%     %	VOLUNTEER ACTIVITIES SECTION
+%     %----------------------------------------------------------------------------------------
+
+%     \section{Recent Volunteer Activities}
+
+%     \cventry{Since \quad Spring 2025}
+%     {Committee Member}
+%     {Mechanical Engineering Graduate Association}
+%     {}{}{}
+
+%     \cventry{Since \quad Spring 2022}
+%     {Team Mentor}
+%     {UTDesign EPICS}
+%     {Jonsson School of Engineering and Computer Science}{}{}
+
+%     \cventry{Fall 2022 - Spring 2023}
+%     {Committee Member}
+%     {Strategic Planning Committee}
+%     {Jonsson School of Engineering and Computer Science}{}{}
+
+%     \cventry{Spring 2022 - Fall 2022}
+%     {Graduate Student Mentor}
+%     {Peer Mentoring Program}
+%     {Jonsson School of Engineering and Computer Science}{}{}
+
+%     \cventry{Fall 2016 - Spring 2020}
+%     {Robot Design and Controls Mentor}
+%     {FIRST Robotics Competition Team 171}
+%     {Platteville,WI}{}{}
+
+%     % \cventry{Dec 2019}
+%     % {Event Volunteer - Toy Modification}
+%     % {UW-Platteville Holiday Toy Hack}{}{}{}
+
+%     % \cventry{Oct 2019}
+%     % {Virtual Reality Day for Kids}
+%     % {Platteville Public Library}{}{}{}
+
+%     % \cventry{May 2018}
+%     % {Event Volunteer - Robotics Demo}
+%     % {College of Engineering, Math, and Science Expo}{}{}{}
+% }
+
+% \ifthenelse{\boolean{short_cv}}{}{
+%     %----------------------------------------------------------------------------------------
+%     %	EXTRACURRICULAR ACTIVITIES SECTION
+%     %----------------------------------------------------------------------------------------
+
+%     \section{Extracurricular Activities}
+
+%     \cvitem{Since 2020}{\textbf{FAE\small{@}UTD} - For Autistic Empowerment}
+%     \cvitem{Since 2021}{\textbf{Choir} - Credo Community Choir}
+%     \cvitem{2016 - 2020}{\textbf{FIRST Robotics} - FRC Team 171}
+%     \cvitem{2018 - 2020}{\textbf{Society of Physics Students}}
+%     \cvitem{2017 - 2020}{\textbf{Pioneer Maker Club}}
+%     \cvitem{2016 - 2020}{\textbf{Choir} - University Singers \& Singing Pioneers}
+% }
+
+
 
 %----------------------------------------------------------------------------------------
 
